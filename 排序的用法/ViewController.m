@@ -17,6 +17,9 @@
 
 @implementation ViewController
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -98,8 +101,12 @@
     [queue addOperation:a];
     [queue addOperation:b];
     
+    __weak typeof(self) weakSelf = self;
+    self.PresentBlock = ^(NSString *str) {
+        weakSelf.view.backgroundColor = [UIColor redColor];
+    };
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

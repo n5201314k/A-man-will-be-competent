@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+
+typedef void (^PresentAlreatBlock)(NSString *str) ;
+
 @interface ViewController : UIViewController
 
+
+@property (nonatomic,copy) PresentAlreatBlock  PresentBlock;
 
 @end
 
