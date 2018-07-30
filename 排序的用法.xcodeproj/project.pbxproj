@@ -15,6 +15,8 @@
 		122FF9212106C6420091817F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9202106C6420091817F /* main.m */; };
 		122FF92B2106C6420091817F /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF92A2106C6420091817F /* _____Tests.m */; };
 		122FF9362106C6420091817F /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9352106C6420091817F /* _____UITests.m */; };
+		12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE949210F025800AA6C83 /* ManTableViewCell.m */; };
+		12FEE94C210F025800AA6C83 /* ManTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		122FF9312106C6420091817F /* 排序的用法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序的用法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122FF9352106C6420091817F /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		122FF9372106C6420091817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FEE948210F025800AA6C83 /* ManTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManTableViewCell.h; sourceTree = "<group>"; };
+		12FEE949210F025800AA6C83 /* ManTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManTableViewCell.m; sourceTree = "<group>"; };
+		12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				122FF9122106C6420091817F /* AppDelegate.m */,
 				122FF9142106C6420091817F /* ViewController.h */,
 				122FF9152106C6420091817F /* ViewController.m */,
+				12FEE948210F025800AA6C83 /* ManTableViewCell.h */,
+				12FEE949210F025800AA6C83 /* ManTableViewCell.m */,
+				12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */,
 				122FF9172106C6420091817F /* Main.storyboard */,
 				122FF91A2106C6420091817F /* Assets.xcassets */,
 				122FF91C2106C6420091817F /* LaunchScreen.storyboard */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FEE94C210F025800AA6C83 /* ManTableViewCell.xib in Resources */,
 				122FF91E2106C6420091817F /* LaunchScreen.storyboard in Resources */,
 				122FF91B2106C6420091817F /* Assets.xcassets in Resources */,
 				122FF9192106C6420091817F /* Main.storyboard in Resources */,
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */,
 				122FF9162106C6420091817F /* ViewController.m in Sources */,
 				122FF9212106C6420091817F /* main.m in Sources */,
 				122FF9132106C6420091817F /* AppDelegate.m in Sources */,
