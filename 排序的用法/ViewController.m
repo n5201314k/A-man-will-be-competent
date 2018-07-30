@@ -106,6 +106,10 @@
         weakSelf.view.backgroundColor = [UIColor redColor];
     };
     
+    UIButton *buttton= [[UIButton alloc] init];
+    buttton.frame = CGRectMake(0, 0, 20, 20);
+    [self.view addSubview:buttton];
+    
 }
 
 - (void)didReceiveMemoryWarning {
