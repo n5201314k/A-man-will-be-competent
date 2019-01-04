@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		067B24989ED6007D85730D56 /* libPods-排序的用法.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E704908981FA5F04CBBFBA1 /* libPods-排序的用法.a */; };
+		12179A8B21DF58CE001C2C96 /* GitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12179A8A21DF58CE001C2C96 /* GitTableViewController.m */; };
 		122FF9132106C6420091817F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9122106C6420091817F /* AppDelegate.m */; };
 		122FF9162106C6420091817F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9152106C6420091817F /* ViewController.m */; };
 		122FF9192106C6420091817F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122FF9172106C6420091817F /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12179A8921DF58CE001C2C96 /* GitTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTableViewController.h; sourceTree = "<group>"; };
+		12179A8A21DF58CE001C2C96 /* GitTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTableViewController.m; sourceTree = "<group>"; };
 		122FF90E2106C6420091817F /* 排序的用法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序的用法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122FF9112106C6420091817F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		122FF9122106C6420091817F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				12FEE948210F025800AA6C83 /* ManTableViewCell.h */,
 				12FEE949210F025800AA6C83 /* ManTableViewCell.m */,
 				12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */,
+				12179A8921DF58CE001C2C96 /* GitTableViewController.h */,
+				12179A8A21DF58CE001C2C96 /* GitTableViewController.m */,
 				126592A1211D7447005A399F /* NmqStoryViewController.h */,
 				126592A2211D7447005A399F /* NmqStoryViewController.m */,
 				126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */,
@@ -337,6 +342,7 @@
 			files = (
 				12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */,
 				122FF9162106C6420091817F /* ViewController.m in Sources */,
+				12179A8B21DF58CE001C2C96 /* GitTableViewController.m in Sources */,
 				122FF9212106C6420091817F /* main.m in Sources */,
 				122FF9132106C6420091817F /* AppDelegate.m in Sources */,
 				126592A3211D7447005A399F /* NmqStoryViewController.m in Sources */,
