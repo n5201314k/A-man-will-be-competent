@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067B24989ED6007D85730D56 /* libPods-排序的用法.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E704908981FA5F04CBBFBA1 /* libPods-排序的用法.a */; };
 		122FF9132106C6420091817F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9122106C6420091817F /* AppDelegate.m */; };
 		122FF9162106C6420091817F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9152106C6420091817F /* ViewController.m */; };
 		122FF9192106C6420091817F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122FF9172106C6420091817F /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		122FF9212106C6420091817F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9202106C6420091817F /* main.m */; };
 		122FF92B2106C6420091817F /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF92A2106C6420091817F /* _____Tests.m */; };
 		122FF9362106C6420091817F /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122FF9352106C6420091817F /* _____UITests.m */; };
+		125F6B632174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125F6B622174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png */; };
+		126592A3211D7447005A399F /* NmqStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126592A2211D7447005A399F /* NmqStoryViewController.m */; };
+		126592A5211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */; };
 		12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE949210F025800AA6C83 /* ManTableViewCell.m */; };
 		12FEE94C210F025800AA6C83 /* ManTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -53,9 +57,17 @@
 		122FF9312106C6420091817F /* 排序的用法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序的用法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122FF9352106C6420091817F /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		122FF9372106C6420091817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125F6B61217428EB00EC4DB3 /* WHKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WHKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		125F6B622174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZFPlayer_Wechat_icon@3x.png"; sourceTree = "<group>"; };
+		126592A1211D7447005A399F /* NmqStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NmqStoryViewController.h; sourceTree = "<group>"; };
+		126592A2211D7447005A399F /* NmqStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NmqStoryViewController.m; sourceTree = "<group>"; };
+		126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NmqStoryViewControllerStoryboard.storyboard; sourceTree = "<group>"; };
 		12FEE948210F025800AA6C83 /* ManTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManTableViewCell.h; sourceTree = "<group>"; };
 		12FEE949210F025800AA6C83 /* ManTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManTableViewCell.m; sourceTree = "<group>"; };
 		12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManTableViewCell.xib; sourceTree = "<group>"; };
+		6B5237FA3560576D31F267E4 /* Pods-排序的用法.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序的用法.debug.xcconfig"; path = "Pods/Target Support Files/Pods-排序的用法/Pods-排序的用法.debug.xcconfig"; sourceTree = "<group>"; };
+		80049BC210660C4A11350181 /* Pods-排序的用法.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序的用法.release.xcconfig"; path = "Pods/Target Support Files/Pods-排序的用法/Pods-排序的用法.release.xcconfig"; sourceTree = "<group>"; };
+		8E704908981FA5F04CBBFBA1 /* libPods-排序的用法.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-排序的用法.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067B24989ED6007D85730D56 /* libPods-排序的用法.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +103,8 @@
 				122FF9292106C6420091817F /* 排序的用法Tests */,
 				122FF9342106C6420091817F /* 排序的用法UITests */,
 				122FF90F2106C6420091817F /* Products */,
+				AF1BE49AA4B5A011DA6AC1B2 /* Pods */,
+				87C85746438E4CDBBC4CC34B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +128,11 @@
 				12FEE948210F025800AA6C83 /* ManTableViewCell.h */,
 				12FEE949210F025800AA6C83 /* ManTableViewCell.m */,
 				12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */,
+				126592A1211D7447005A399F /* NmqStoryViewController.h */,
+				126592A2211D7447005A399F /* NmqStoryViewController.m */,
+				126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */,
 				122FF9172106C6420091817F /* Main.storyboard */,
+				125F6B622174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png */,
 				122FF91A2106C6420091817F /* Assets.xcassets */,
 				122FF91C2106C6420091817F /* LaunchScreen.storyboard */,
 				122FF91F2106C6420091817F /* Info.plist */,
@@ -140,6 +159,24 @@
 			path = "排序的用法UITests";
 			sourceTree = "<group>";
 		};
+		87C85746438E4CDBBC4CC34B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125F6B61217428EB00EC4DB3 /* WHKit.framework */,
+				8E704908981FA5F04CBBFBA1 /* libPods-排序的用法.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1BE49AA4B5A011DA6AC1B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5237FA3560576D31F267E4 /* Pods-排序的用法.debug.xcconfig */,
+				80049BC210660C4A11350181 /* Pods-排序的用法.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 122FF93A2106C6420091817F /* Build configuration list for PBXNativeTarget "排序的用法" */;
 			buildPhases = (
+				E0B97710DBC18D92FB879966 /* [CP] Check Pods Manifest.lock */,
 				122FF90A2106C6420091817F /* Sources */,
 				122FF90B2106C6420091817F /* Frameworks */,
 				122FF90C2106C6420091817F /* Resources */,
@@ -247,9 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FEE94C210F025800AA6C83 /* ManTableViewCell.xib in Resources */,
+				126592A5211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard in Resources */,
 				122FF91E2106C6420091817F /* LaunchScreen.storyboard in Resources */,
 				122FF91B2106C6420091817F /* Assets.xcassets in Resources */,
 				122FF9192106C6420091817F /* Main.storyboard in Resources */,
+				125F6B632174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +309,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E0B97710DBC18D92FB879966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-排序的用法-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		122FF90A2106C6420091817F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +339,7 @@
 				122FF9162106C6420091817F /* ViewController.m in Sources */,
 				122FF9212106C6420091817F /* main.m in Sources */,
 				122FF9132106C6420091817F /* AppDelegate.m in Sources */,
+				126592A3211D7447005A399F /* NmqStoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +500,7 @@
 		};
 		122FF93B2106C6420091817F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5237FA3560576D31F267E4 /* Pods-排序的用法.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +515,7 @@
 		};
 		122FF93C2106C6420091817F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80049BC210660C4A11350181 /* Pods-排序的用法.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
