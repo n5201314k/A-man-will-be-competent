@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 #import "WHKit.h"
 #import "Masonry.h"
 @interface AppDelegate ()
@@ -19,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+  ViewController *mainView = [[ViewController alloc]init];
+    
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:mainView];
+    
+    navi.navigationBar.backgroundColor = [UIColor blueColor];
+    
+    [self.window setRootViewController:navi];
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

@@ -10,7 +10,7 @@
 
 #import "NmqStoryViewController.h"
 #import "WHKit.h"
-
+#import "SretchTableView.h"
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor= [UIColor whiteColor];
     UIButton *but  = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth /3, 100, ScreenWidth/2  , [UIScreen mainScreen].bounds.size.height/2)];
     but.backgroundColor = [UIColor redColor];
     [self.view addSubview:but];
@@ -102,6 +102,9 @@
     //点击按钮
     [but wh_addActionHandler:^{
         NSLog(@"我被点击了");
+        SretchTableView *view = [[SretchTableView alloc ] init];
+       
+       [self.navigationController pushViewController:view animated:YES];
     }];
 
     NSString *filePath  = [@"test.plist" appendDocumentPath];
@@ -118,8 +121,7 @@
     imageView.image =image;
     [self.view addSubview:imageView];
     
-    
-    
+
 }
 -(void)butclick{
     

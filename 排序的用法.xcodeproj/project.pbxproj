@@ -20,6 +20,8 @@
 		125F6B632174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125F6B622174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png */; };
 		126592A3211D7447005A399F /* NmqStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126592A2211D7447005A399F /* NmqStoryViewController.m */; };
 		126592A5211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */; };
+		12FCEB8321EF0AC900F2A02B /* SretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FCEB8221EF0AC900F2A02B /* SretchTableView.m */; };
+		12FCEB8621EF0AFC00F2A02B /* SretchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FCEB8521EF0AFC00F2A02B /* SretchTableViewCell.m */; };
 		12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE949210F025800AA6C83 /* ManTableViewCell.m */; };
 		12FEE94C210F025800AA6C83 /* ManTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,11 @@
 		126592A1211D7447005A399F /* NmqStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NmqStoryViewController.h; sourceTree = "<group>"; };
 		126592A2211D7447005A399F /* NmqStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NmqStoryViewController.m; sourceTree = "<group>"; };
 		126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NmqStoryViewControllerStoryboard.storyboard; sourceTree = "<group>"; };
+		12FCEB8121EF0AC900F2A02B /* SretchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SretchTableView.h; sourceTree = "<group>"; };
+		12FCEB8221EF0AC900F2A02B /* SretchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SretchTableView.m; sourceTree = "<group>"; };
+		12FCEB8421EF0AFC00F2A02B /* SretchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SretchTableViewCell.h; sourceTree = "<group>"; };
+		12FCEB8521EF0AFC00F2A02B /* SretchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SretchTableViewCell.m; sourceTree = "<group>"; };
+		12FCEB8821EF101300F2A02B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		12FEE948210F025800AA6C83 /* ManTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManTableViewCell.h; sourceTree = "<group>"; };
 		12FEE949210F025800AA6C83 /* ManTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManTableViewCell.m; sourceTree = "<group>"; };
 		12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManTableViewCell.xib; sourceTree = "<group>"; };
@@ -124,18 +131,8 @@
 		122FF9102106C6420091817F /* 排序的用法 */ = {
 			isa = PBXGroup;
 			children = (
-				122FF9112106C6420091817F /* AppDelegate.h */,
-				122FF9122106C6420091817F /* AppDelegate.m */,
-				122FF9142106C6420091817F /* ViewController.h */,
-				122FF9152106C6420091817F /* ViewController.m */,
-				12FEE948210F025800AA6C83 /* ManTableViewCell.h */,
-				12FEE949210F025800AA6C83 /* ManTableViewCell.m */,
-				12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */,
-				12179A8921DF58CE001C2C96 /* GitTableViewController.h */,
-				12179A8A21DF58CE001C2C96 /* GitTableViewController.m */,
-				126592A1211D7447005A399F /* NmqStoryViewController.h */,
-				126592A2211D7447005A399F /* NmqStoryViewController.m */,
-				126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */,
+				12FCEB8021EF0A6900F2A02B /* AppDelegate */,
+				12FCEB7F21EF0A3800F2A02B /* Perfect */,
 				122FF9172106C6420091817F /* Main.storyboard */,
 				125F6B622174664600EC4DB3 /* ZFPlayer_Wechat_icon@3x.png */,
 				122FF91A2106C6420091817F /* Assets.xcassets */,
@@ -162,6 +159,37 @@
 				122FF9372106C6420091817F /* Info.plist */,
 			);
 			path = "排序的用法UITests";
+			sourceTree = "<group>";
+		};
+		12FCEB7F21EF0A3800F2A02B /* Perfect */ = {
+			isa = PBXGroup;
+			children = (
+				12FCEB8121EF0AC900F2A02B /* SretchTableView.h */,
+				12FCEB8221EF0AC900F2A02B /* SretchTableView.m */,
+				12FCEB8421EF0AFC00F2A02B /* SretchTableViewCell.h */,
+				12FCEB8521EF0AFC00F2A02B /* SretchTableViewCell.m */,
+			);
+			path = Perfect;
+			sourceTree = "<group>";
+		};
+		12FCEB8021EF0A6900F2A02B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				122FF9112106C6420091817F /* AppDelegate.h */,
+				122FF9122106C6420091817F /* AppDelegate.m */,
+				122FF9142106C6420091817F /* ViewController.h */,
+				122FF9152106C6420091817F /* ViewController.m */,
+				12FEE948210F025800AA6C83 /* ManTableViewCell.h */,
+				12FEE949210F025800AA6C83 /* ManTableViewCell.m */,
+				12FEE94A210F025800AA6C83 /* ManTableViewCell.xib */,
+				12179A8921DF58CE001C2C96 /* GitTableViewController.h */,
+				12179A8A21DF58CE001C2C96 /* GitTableViewController.m */,
+				126592A1211D7447005A399F /* NmqStoryViewController.h */,
+				126592A2211D7447005A399F /* NmqStoryViewController.m */,
+				126592A4211D7470005A399F /* NmqStoryViewControllerStoryboard.storyboard */,
+				12FCEB8821EF101300F2A02B /* PrefixHeader.pch */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		87C85746438E4CDBBC4CC34B /* Frameworks */ = {
@@ -342,7 +370,9 @@
 			files = (
 				12FEE94B210F025800AA6C83 /* ManTableViewCell.m in Sources */,
 				122FF9162106C6420091817F /* ViewController.m in Sources */,
+				12FCEB8321EF0AC900F2A02B /* SretchTableView.m in Sources */,
 				12179A8B21DF58CE001C2C96 /* GitTableViewController.m in Sources */,
+				12FCEB8621EF0AFC00F2A02B /* SretchTableViewCell.m in Sources */,
 				122FF9212106C6420091817F /* main.m in Sources */,
 				122FF9132106C6420091817F /* AppDelegate.m in Sources */,
 				126592A3211D7447005A399F /* NmqStoryViewController.m in Sources */,
@@ -511,7 +541,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = US7RUS3G2C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/排序的用法/AppDelegate/PrefixHeader.pch";
 				INFOPLIST_FILE = "排序的用法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.1234.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +559,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = US7RUS3G2C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/排序的用法/AppDelegate/PrefixHeader.pch";
 				INFOPLIST_FILE = "排序的用法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.1234.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
